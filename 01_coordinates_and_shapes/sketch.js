@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
 
-  rect( 50, 50, 75, 100 );
+  rect( 50, 100, 200, 40 );
 
   // line();
   // ellipse();
