@@ -4,11 +4,9 @@
  */
 
 function setup() {
-
   createCanvas( 800, 450 );
   background( 200 );
   strokeWeight( 4 );
-
 }
 
 function draw() {
