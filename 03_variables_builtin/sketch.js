@@ -1,18 +1,18 @@
 /*
- * Simple Interaction
+ * Variables (built in)
  * @author Gareth Foote
  */
 function setup() {
   createCanvas( 800, 450 );
-  background(0);
+  background( 0 );
 }
 
 function draw() {
 
-  // Make sure the first two params of ellipse() are the top left corner.
-  ellipseMode( CORNER );
-
-  // Make the size of the ellipse follow position of mouse.
-  ellipse(mouseX, mouseY, 10, 10);
+  rectMode(CENTER);
+  // The rectangle position is half of the canvas and it's size
+  // is set by the mouse position.
+  // TASK: Change the arguments so that the rect follows the position of the mouse
+  rect(width/2, height/2, mouseX, mouseY);
 
 }
