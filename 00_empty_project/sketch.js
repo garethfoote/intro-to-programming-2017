@@ -2,6 +2,7 @@
  * An empty p5.js project
  * @author Write your name here.
  */
+
 var count = 0;
 var date = new Date()
 
@@ -10,6 +11,6 @@ function setup() {
 }
 
 function draw() {
-  background(200);
-  text(frameCount, 0, 10);
+  background( 200 );
+  text( frameCount, 0, 10 );
 }
