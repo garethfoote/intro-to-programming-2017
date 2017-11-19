@@ -6,22 +6,22 @@
 var positionX = 0;
 
 function setup() {
-  createCanvas(800, 450);
+  createCanvas( 800, 450 );
   rectMode( CENTER );
 }
 
 function draw(){
   // Set the background to black every frame
-  background(0);
+  background( 0 );
 
   // Draw a rectangle that moves along the X axis
-  rect(positionX, height/2, 10, 10);
+  rect( positionX, height/2, 10, 10 );
 
   // Increase the value stored in postitionX
   positionX = positionX + 1;
 
   // TASK: Finish this conditional statement to move the rect back to 0.
-  if(positionX > width){
+  if( positionX > width ){
     // ????
   }
 

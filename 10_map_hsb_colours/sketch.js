@@ -10,9 +10,6 @@ function setup() {
   // Change the colorMode to HSB to make it easier to
   // transition the saturation & brightness of a colour.
   colorMode(HSB, 360, 100, 100);
-
-  console.log(map(10, 0, 50, 0, 200));
-  console.log(map(35, 0, 50, 0, 200));
 }
 
 function draw() {
@@ -24,9 +21,9 @@ function draw() {
   fill(colour, 100, 100);
   rect(columnWidth*0, 0, columnWidth, height);
 
-  fill(colour, 100, 70);
+  fill(colour, 80, 70);
   rect(columnWidth*1, 0, columnWidth, height);
 
-  fill(colour, 100, 40);
+  fill(colour, 60, 40);
   rect(columnWidth*2, 0, columnWidth, height);
 }
