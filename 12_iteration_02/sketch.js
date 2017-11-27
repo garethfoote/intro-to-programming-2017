@@ -13,20 +13,16 @@ function setup() {
 function draw() {
   background( 0 );
 
-  var numRects = 10;
-  var rectSpreadX = width/numRects;
-  var colourSpreadX = 360/numRects;
-
   var xPos = 0;
-  for( var i = 0; i < numRects; i++ ){
+  for( var i = 0; i < 10; i++ ){
 
     // Draw a rectangle
-    fill( i*colourSpreadX, 100, 100 );
-    rect( i*rectSpreadX, 0, rectSpreadX, height );
+    fill( 0, 100, 100 );
+    rect( xPos, 0, 10, height );
 
     // Write the 'i' variable on screen
     fill( 255 );
-    text( i, i*rectSpreadX, 10 );
+    text( i, xPos, 10 );
 
     // Move the x position on 30 pixels
     xPos += 30;
