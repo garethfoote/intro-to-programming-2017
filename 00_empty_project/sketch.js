@@ -3,10 +3,10 @@
  * @author Write your name here.
  */
 
-var count = 0;
-var date = new Date()
+
 
 function setup() {
+  var date = new Date();
   console.log( "Hello World", date.toDateString() );
 }
 
