@@ -1,9 +1,7 @@
 /*
- * An empty p5.js project
+ * An (almost) empty P5.js sketch
  * @author Write your name here.
  */
-
-
 
 function setup() {
   var date = new Date();
