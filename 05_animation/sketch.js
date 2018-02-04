@@ -18,7 +18,7 @@ function draw(){
   rect( positionX, height/2, 10, 10 );
 
   // Increase the value stored in postitionX
-  positionX = positionX + 1;
+  // positionX = ?;
 
   // TASK: Finish this conditional statement to move the rect back to 0.
   if( positionX > width ){
