@@ -3,7 +3,7 @@
  * @author Gareth Foote
  */
 
-var positionX = 0;
+var positionX = 50;
 
 function setup() {
   createCanvas( 800, 450 );
